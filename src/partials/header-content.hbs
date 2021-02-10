@@ -2,7 +2,7 @@
   <nav class="navbar">
     <div class="navbar-brand">
       <a href="{{{or site.url (or siteRootUrl siteRootPath)}}}">
-        <img width="223px" height="43px" src="../_/img/logo.svg"/>
+        <img width="223px" height="43px" src="{{site.keys.pathToAssets}}img/logo.svg"/>
       </a>
       <button class="navbar-burger" data-target="topbar-nav">
         <span></span>
@@ -17,18 +17,18 @@
           <!--<a class="navbar-item" href="/community">Community</a>-->
           <!--<a class="navbar-item" href="/blog">Blog</a>-->
           <!-- <a class="navbar-item search" href="/results">
-            <img width="34px" height="34px" src="../_/img/search.svg"/>
+            <img width="34px" height="34px" src="{{site.keys.pathToAssets}}img/search.svg"/>
           </a>-->
         </div>
         <div class="navbar-end__group">
           <!--<a class="navbar-item social-icon" href="https://twitter.com/stargateio" target="_blank" rel="noopener noreferrer">
-            <img width="34px" height="34px" src="../_/img/twitter.svg"/>
+            <img width="34px" height="34px" src="{{site.keys.pathToAssets}}img/twitter.svg"/>
           </a>-->
           <!--<a class="navbar-item social-icon" href="https://groups.google.com/a/lists.stargate.io/g/stargate-users" target="_blank">
-            <img width="34px" height="34px" src="../_/img/groups.svg"/>
+            <img width="34px" height="34px" src="{{site.keys.pathToAssets}}img/groups.svg"/>
           </a>-->
           <!--<a class="navbar-item social-icon" href="https://github.com/riptano/pulsar-distro" target="_blank" rel="noopener noreferrer">
-            <img width="34px" height="34px" src="../_/img/github.svg"/>
+            <img width="34px" height="34px" src="{{site.keys.pathToAssets}}img/github.svg"/>
           </a>-->
         </div>
       </div>
