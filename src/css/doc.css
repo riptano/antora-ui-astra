@@ -522,6 +522,8 @@
   padding: 0.75rem;
 }
 
+.doc .admonitionblock pre.highlight code { color: #000; }
+
 /* NOTE assume pre.highlight contains code[data-lang] */
 .doc pre.highlight {
   position: relative;
