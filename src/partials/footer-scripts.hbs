@@ -6,10 +6,10 @@
   docsearch({
     // Your apiKey and indexName will be given to you once
     // we create your config
-    {{#with site.keys.algolia.apiKey}}
+    {{#with site.keys.algolia_apiKey}}
         apiKey: "{{this}}",
     {{/with}}
-    {{#with site.keys.algolia.index}}
+    {{#with site.keys.algolia_index}}
         indexName: "{{this}},
     {{/with}}
     //appId: '<APP_ID>', // Should be only included if you are running DocSearch on your own.
