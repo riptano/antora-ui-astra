@@ -1,0 +1,14 @@
+.search-div {
+  background-color: #222b49;
+}
+
+.search-div img {
+  width: 10px;
+  height: 10px;
+  object-fit: cover;
+}
+
+.search-field {
+  width: 35%;
+  border-radius: 100px;
+}
